@@ -1,84 +1,121 @@
-/* Make the layout more flexible */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #FFD700, #6A0DAD);
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Puzzle Questions</h1>
+        <p>Test your knowledge with these fun MCQs!</p>
+    </header>
 
-/* Ensure sections adjust to screen size */
-section {
-    padding: 2rem;
-    margin: 1rem auto;
-    max-width: 1000px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    <section>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <h2>1. Who is known as the Father of Library Science in India?</h2>
+            <label><input type="radio" name="q1" value="A"> A) S.R. Ranganathan</label><br>
+            <label><input type="radio" name="q1" value="B"> B) Melvil Dewey</label><br>
+            <label><input type="radio" name="q1" value="C"> C) John Cotton Dana</label><br>
+            <label><input type="radio" name="q1" value="D"> D) William Stetson Merrill</label><br>
 
-/* Make nav responsive */
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
-    background-color: #FFD700;
-}
+            <!-- Question 2 -->
+            <h2>2. What does ISBN stand for?</h2>
+            <label><input type="radio" name="q2" value="A"> A) International Standard Book Number</label><br>
+            <label><input type="radio" name="q2" value="B"> B) Indian Standard Book Number</label><br>
+            <label><input type="radio" name="q2" value="C"> C) International Standard Bibliography Number</label><br>
+            <label><input type="radio" name="q2" value="D"> D) Indian Standard Bibliography Number</label><br>
 
-nav li {
-    margin: 0.5rem;
-}
+            <!-- Question 3 -->
+            <h2>3. Which classification system uses "DDC"?</h2>
+            <label><input type="radio" name="q3" value="A"> A) Dewey Decimal Classification</label><br>
+            <label><input type="radio" name="q3" value="B"> B) Library of Congress Classification</label><br>
+            <label><input type="radio" name="q3" value="C"> C) Colon Classification</label><br>
+            <label><input type="radio" name="q3" value="D"> D) Universal Decimal Classification</label><br>
 
-nav a {
-    text-decoration: none;
-    color: #6A0DAD;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-}
+            <!-- Question 4 -->
+            <h2>4. In which year was the first edition of DDC published?</h2>
+            <label><input type="radio" name="q4" value="A"> A) 1876</label><br>
+            <label><input type="radio" name="q4" value="B"> B) 1885</label><br>
+            <label><input type="radio" name="q4" value="C"> C) 1890</label><br>
+            <label><input type="radio" name="q4" value="D"> D) 1901</label><br>
 
-/* Button responsiveness */
-button {
-    width: 100%;
-    max-width: 300px;
-    padding: 1rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 8px;
-    background-color: #6A0DAD;
-    color: #FFD700;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+            <!-- Question 5 -->
+            <h2>5. What does MARC stand for in library science?</h2>
+            <label><input type="radio" name="q5" value="A"> A) Machine Readable Cataloging</label><br>
+            <label><input type="radio" name="q5" value="B"> B) Manual Record Cataloging</label><br>
+            <label><input type="radio" name="q5" value="C"> C) Modern Archival Catalog</label><br>
+            <label><input type="radio" name="q5" value="D"> D) Metadata Archival Record Control</label><br>
 
-button:hover {
-    background-color: #4B0082;
-}
+            <!-- Question 6 -->
+            <h2>6. What is the full form of OPAC?</h2>
+            <label><input type="radio" name="q6" value="A"> A) Online Public Access Catalog</label><br>
+            <label><input type="radio" name="q6" value="B"> B) Open Public Access Catalog</label><br>
+            <label><input type="radio" name="q6" value="C"> C) Online Personal Access Catalog</label><br>
+            <label><input type="radio" name="q6" value="D"> D) Organized Public Archival Catalog</label><br>
 
-/* Media query for small screens */
-@media (max-width: 768px) {
-    header {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
+            <!-- Question 7 -->
+            <h2>7. Who developed the Colon Classification system?</h2>
+            <label><input type="radio" name="q7" value="A"> A) S.R. Ranganathan</label><br>
+            <label><input type="radio" name="q7" value="B"> B) Melvil Dewey</label><br>
+            <label><input type="radio" name="q7" value="C"> C) Charles Ammi Cutter</label><br>
+            <label><input type="radio" name="q7" value="D"> D) Paul Otlet</label><br>
 
-    section {
-        padding: 1rem;
-        margin: 0.5rem;
-    }
+            <!-- Question 8 -->
+            <h2>8. What is the main purpose of AACR2?</h2>
+            <label><input type="radio" name="q8" value="A"> A) Cataloging Rules</label><br>
+            <label><input type="radio" name="q8" value="B"> B) Classification Rules</label><br>
+            <label><input type="radio" name="q8" value="C"> C) Library Management</label><br>
+            <label><input type="radio" name="q8" value="D"> D) Information Retrieval</label><br>
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
+            <!-- Question 9 -->
+            <h2>9. What is DOI in research?</h2>
+            <label><input type="radio" name="q9" value="A"> A) Digital Object Identifier</label><br>
+            <label><input type="radio" name="q9" value="B"> B) Data Organization Index</label><br>
+            <label><input type="radio" name="q9" value="C"> C) Digital Online Identifier</label><br>
+            <label><input type="radio" name="q9" value="D"> D) Document Order Information</label><br>
 
-    nav a {
-        padding: 1rem;
-        display: block;
-    }
+            <!-- Question 10 -->
+            <h2>10. Which software is used for library automation?</h2>
+            <label><input type="radio" name="q10" value="A"> A) Koha</label><br>
+            <label><input type="radio" name="q10" value="B"> B) DSpace</label><br>
+            <label><input type="radio" name="q10" value="C"> C) Greenstone</label><br>
+            <label><input type="radio" name="q10" value="D"> D) All of the above</label><br>
 
-    h1, h2 {
-        font-size: 1.5rem;
-    }
-}
+            <br>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <button onclick="location.href='index.html'">Back to Home</button>
+    </footer>
+
+    <script>
+        function checkAnswers() {
+            let score = 0;
+
+            const answers = {
+                q1: 'A', q2: 'A', q3: 'A', q4: 'A', q5: 'A',
+                q6: 'A', q7: 'A', q8: 'A', q9: 'A', q10: 'D'
+            };
+
+            const form = document.getElementById('quiz-form');
+            const result = document.getElementById('result');
+
+            for (let question in answers) {
+                const selected = form.querySelector(`input[name="${question}"]:checked`);
+                if (selected && selected.value === answers[question]) {
+                    score++;
+                }
+            }
+
+            result.textContent = `You scored ${score} out of 10! 🎯`;
+        }
+    </script>
+</body>
+</html>
