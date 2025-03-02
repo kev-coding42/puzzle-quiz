@@ -1,0 +1,86 @@
+/* Background and font styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FFD700, #6A0DAD);
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #6A0DAD;
+    color: #FFD700;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD700;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6A0DAD;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #6A0DAD;
+}
+
+/* Buttons */
+button {
+    background-color: #6A0DAD;
+    color: #FFD700;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4B0082;
+}
+
+/* Form styling */
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #6A0DAD;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6A0DAD;
+    color: #FFD700;
+}
